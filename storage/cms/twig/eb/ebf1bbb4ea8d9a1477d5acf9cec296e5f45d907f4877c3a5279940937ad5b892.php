@@ -70,52 +70,18 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
                         <a class=\"navbar-brand\" href=\"";
         // line 31
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
-        echo "\">Deu Bom</a>
+        echo "\">SIOP</a>
                     </div>
                     <div class=\"collapse navbar-collapse navbar-main-collapse\">
-                        <ul class=\"nav navbar-nav\">
-                            <li class=\"";
-        // line 35
-        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", array()), "id", array()) == "account")) {
-            echo "active";
-        }
-        echo "\"><a href=\"";
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("account");
-        echo "\">Account</a></li>
-                            <li class=\"";
-        // line 36
-        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", array()), "id", array()) == "blog")) {
-            echo "active";
-        }
-        echo "\"><a href=\"";
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("blog");
-        echo "\">Blog</a></li>
-                            <li class=\"";
-        // line 37
-        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", array()), "id", array()) == "forum")) {
-            echo "active";
-        }
-        echo "\"><a href=\"";
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("forum");
-        echo "\">Forum</a></li>
-                            <li class=\"";
-        // line 38
-        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", array()), "id", array()) == "forum")) {
-            echo "active";
-        }
-        echo "\"><a href=\"";
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("forum");
-        echo "\">Forum</a></li>
-                        </ul>
                         <ul class=\"nav navbar-nav navbar-right\">
                             ";
-        // line 41
+        // line 35
         if (($context["user"] ?? null)) {
-            // line 42
+            // line 36
             echo "                                <li><a href=\"#\" data-request=\"onLogout\">Logout</a></li>
                             ";
         }
-        // line 44
+        // line 38
         echo "                        </ul>
                     </div>
                 </div>
@@ -124,53 +90,39 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
         </header>
 
         ";
-        // line 51
+        // line 45
         $context["jumbotronTexture"] = twig_random($this->env, array(0 => "carbon", 1 => "dustnscratches", 2 => "elegant", 3 => "grunge", 4 => "leather", 5 => "lines", 6 => "plaid", 7 => "wood"));
-        // line 52
+        // line 46
         echo "
         <!-- Content -->
         <section id=\"layout-content\">
-            <div class=\"jumbotron\" style=\"background-image:url(";
-        // line 55
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter((("assets/images/textures/" . ($context["jumbotronTexture"] ?? null)) . ".png"));
-        echo ")\">
-                <div class=\"container\">
-                    <h1>";
-        // line 57
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", array()), "title", array()), "html", null, true);
-        echo "</h1>
-                    <p>";
-        // line 58
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", array()), "description", array()), "html", null, true);
-        echo "</p>
-                </div>
-            </div>
+            </br>
             <div class=\"container\">
                 ";
-        // line 62
+        // line 51
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 63
+        // line 52
         echo "            </div>
         </section>
 
         <!-- Footer -->
         <footer id=\"layout-footer\">
             ";
-        // line 68
+        // line 57
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 69
+        // line 58
         echo "        </footer>
 
         <!-- Scripts -->
         <script src=\"";
-        // line 72
+        // line 61
         echo $this->extensions['Cms\Twig\Extension']->themeFilter(array(0 => "assets/javascript/jquery.js", 1 => "assets/vendor/bootstrap/js/transition.js", 2 => "assets/vendor/bootstrap/js/alert.js", 3 => "assets/vendor/bootstrap/js/button.js", 4 => "assets/vendor/bootstrap/js/carousel.js", 5 => "assets/vendor/bootstrap/js/collapse.js", 6 => "assets/vendor/bootstrap/js/dropdown.js", 7 => "assets/vendor/bootstrap/js/modal.js", 8 => "assets/vendor/bootstrap/js/tooltip.js", 9 => "assets/vendor/bootstrap/js/popover.js", 10 => "assets/vendor/bootstrap/js/scrollspy.js", 11 => "assets/vendor/bootstrap/js/tab.js", 12 => "assets/vendor/bootstrap/js/affix.js", 13 => "assets/javascript/app.js"));
-        // line 87
+        // line 76
         echo "\"></script>
         ";
-        // line 88
+        // line 77
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="'. Request::getBasePath()
@@ -185,11 +137,11 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 89
+        // line 78
         echo "        ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 90
+        // line 79
         echo "
     </body>
 </html>";
@@ -207,7 +159,7 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
 
     public function getDebugInfo()
     {
-        return array (  193 => 90,  189 => 89,  174 => 88,  171 => 87,  169 => 72,  164 => 69,  160 => 68,  153 => 63,  151 => 62,  144 => 58,  140 => 57,  135 => 55,  130 => 52,  128 => 51,  119 => 44,  115 => 42,  113 => 41,  103 => 38,  95 => 37,  87 => 36,  79 => 35,  72 => 31,  53 => 14,  50 => 12,  47 => 11,  43 => 10,  37 => 7,  33 => 6,  29 => 5,  23 => 1,);
+        return array (  145 => 79,  141 => 78,  126 => 77,  123 => 76,  121 => 61,  116 => 58,  112 => 57,  105 => 52,  103 => 51,  96 => 46,  94 => 45,  85 => 38,  81 => 36,  79 => 35,  72 => 31,  53 => 14,  50 => 12,  47 => 11,  43 => 10,  37 => 7,  33 => 6,  29 => 5,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -242,15 +194,9 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
                             <span class=\"icon-bar\"></span>
                             <span class=\"icon-bar\"></span>
                         </button>
-                        <a class=\"navbar-brand\" href=\"{{ 'home'|page }}\">Deu Bom</a>
+                        <a class=\"navbar-brand\" href=\"{{ 'home'|page }}\">SIOP</a>
                     </div>
                     <div class=\"collapse navbar-collapse navbar-main-collapse\">
-                        <ul class=\"nav navbar-nav\">
-                            <li class=\"{% if this.page.id == 'account' %}active{% endif %}\"><a href=\"{{ 'account'|page }}\">Account</a></li>
-                            <li class=\"{% if this.page.id == 'blog' %}active{% endif %}\"><a href=\"{{ 'blog'|page }}\">Blog</a></li>
-                            <li class=\"{% if this.page.id == 'forum' %}active{% endif %}\"><a href=\"{{ 'forum'|page }}\">Forum</a></li>
-                            <li class=\"{% if this.page.id == 'forum' %}active{% endif %}\"><a href=\"{{ 'forum'|page }}\">Forum</a></li>
-                        </ul>
                         <ul class=\"nav navbar-nav navbar-right\">
                             {% if user %}
                                 <li><a href=\"#\" data-request=\"onLogout\">Logout</a></li>
@@ -266,12 +212,7 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
 
         <!-- Content -->
         <section id=\"layout-content\">
-            <div class=\"jumbotron\" style=\"background-image:url({{ ('assets/images/textures/'~jumbotronTexture~'.png')|theme }})\">
-                <div class=\"container\">
-                    <h1>{{ this.page.title }}</h1>
-                    <p>{{ this.page.description }}</p>
-                </div>
-            </div>
+            </br>
             <div class=\"container\">
                 {% page %}
             </div>

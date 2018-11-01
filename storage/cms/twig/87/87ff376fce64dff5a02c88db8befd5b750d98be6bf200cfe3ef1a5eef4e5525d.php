@@ -29,14 +29,13 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/plugin-user.png");
         echo "\" alt=\"RainLab.User\" />
             <div class=\"caption\">
-                <h3>Account management</h3>
-                <p>The user plugin <em>RainLab.User</em> provides the basic account management features.</p>
+                <h3>Cerimonial e Eventos</h3>
                 <br />
                 <p>
                     <a href=\"";
-        // line 11
+        // line 10
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("account");
-        echo "\" class=\"btn btn-lg btn-info\" role=\"button\">View Account</a>
+        echo "\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
@@ -45,18 +44,17 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
         <div class=\"thumbnail text-center\">
             <br />
             <img src=\"";
-        // line 19
+        // line 18
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/plugin-user.png");
         echo "\" alt=\"RainLab.User\" />
             <div class=\"caption\">
-                <h3>Account management</h3>
-                <p>The user plugin <em>RainLab.User</em> provides the basic account management features.</p>
+                <h3>Criação e Audio Visual</h3>
                 <br />
                 <p>
                     <a href=\"";
-        // line 25
+        // line 23
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("account");
-        echo "\" class=\"btn btn-lg btn-info\" role=\"button\">View Account</a>
+        echo "\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
@@ -66,18 +64,17 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
         <div class=\"thumbnail text-center\">
             <br />
             <img src=\"";
-        // line 34
+        // line 32
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/plugin-blog.png");
         echo "\" alt=\"RainLab.Blog\" />
             <div class=\"caption\">
-                <h3>Blog articles</h3>
-                <p>The user plugin <em>RainLab.Blog</em> provides robust authoring features.</p>
+                <h3>Jornalismo e Assesoria de Imprensa</h3>
                 <br />
                 <p>
                     <a href=\"";
-        // line 40
+        // line 37
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("blog");
-        echo "\" class=\"btn btn-lg btn-success\" role=\"button\">View Blog</a>
+        echo "\" class=\"btn btn-lg btn-success\" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
@@ -87,18 +84,17 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
         <div class=\"thumbnail text-center\">
             <br />
             <img src=\"";
-        // line 49
+        // line 46
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/plugin-forum.png");
         echo "\" alt=\"RainLab.Forum\" />
             <div class=\"caption\">
-                <h3>Discussion forum</h3>
-                <p>The forum plugin <em>RainLab.Forum</em> provides community discussion features.</p>
+                <h3>Secretaria</h3>
                 <br />
                 <p>
                     <a href=\"";
-        // line 55
+        // line 51
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("forum");
-        echo "\" class=\"btn btn-lg btn-warning\" role=\"button\">View Forum</a>
+        echo "\" class=\"btn btn-lg btn-warning\" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
@@ -118,7 +114,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
 
     public function getDebugInfo()
     {
-        return array (  100 => 55,  91 => 49,  79 => 40,  70 => 34,  58 => 25,  49 => 19,  38 => 11,  29 => 5,  23 => 1,);
+        return array (  96 => 51,  88 => 46,  76 => 37,  68 => 32,  56 => 23,  48 => 18,  37 => 10,  29 => 5,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -129,11 +125,10 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
             <br />
             <img src=\"{{ 'assets/images/plugin-user.png'|theme }}\" alt=\"RainLab.User\" />
             <div class=\"caption\">
-                <h3>Account management</h3>
-                <p>The user plugin <em>RainLab.User</em> provides the basic account management features.</p>
+                <h3>Cerimonial e Eventos</h3>
                 <br />
                 <p>
-                    <a href=\"{{ 'account'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">View Account</a>
+                    <a href=\"{{ 'account'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
@@ -143,11 +138,10 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
             <br />
             <img src=\"{{ 'assets/images/plugin-user.png'|theme }}\" alt=\"RainLab.User\" />
             <div class=\"caption\">
-                <h3>Account management</h3>
-                <p>The user plugin <em>RainLab.User</em> provides the basic account management features.</p>
+                <h3>Criação e Audio Visual</h3>
                 <br />
                 <p>
-                    <a href=\"{{ 'account'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">View Account</a>
+                    <a href=\"{{ 'account'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
@@ -158,11 +152,10 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
             <br />
             <img src=\"{{ 'assets/images/plugin-blog.png'|theme }}\" alt=\"RainLab.Blog\" />
             <div class=\"caption\">
-                <h3>Blog articles</h3>
-                <p>The user plugin <em>RainLab.Blog</em> provides robust authoring features.</p>
+                <h3>Jornalismo e Assesoria de Imprensa</h3>
                 <br />
                 <p>
-                    <a href=\"{{ 'blog'|page }}\" class=\"btn btn-lg btn-success\" role=\"button\">View Blog</a>
+                    <a href=\"{{ 'blog'|page }}\" class=\"btn btn-lg btn-success\" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
@@ -173,11 +166,10 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
             <br />
             <img src=\"{{ 'assets/images/plugin-forum.png'|theme }}\" alt=\"RainLab.Forum\" />
             <div class=\"caption\">
-                <h3>Discussion forum</h3>
-                <p>The forum plugin <em>RainLab.Forum</em> provides community discussion features.</p>
+                <h3>Secretaria</h3>
                 <br />
                 <p>
-                    <a href=\"{{ 'forum'|page }}\" class=\"btn btn-lg btn-warning\" role=\"button\">View Forum</a>
+                    <a href=\"{{ 'forum'|page }}\" class=\"btn btn-lg btn-warning\" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
