@@ -29,4 +29,12 @@
   'RainLab\\User\\Components\\Account' => 'plugins\\rainlab\\user\\components\\Account.php',
   'RainLab\\User\\Components\\ResetPassword' => 'plugins\\rainlab\\user\\components\\ResetPassword.php',
   'backend\\Controllers\\media' => 'modules\\backend\\controllers\\media.php',
+  'rainlab\\blog\\Controllers\\posts' => 'plugins\\rainlab\\blog\\controllers\\posts.php',
+  'RainLab\\Blog\\Models\\PostImport' => 'plugins\\rainlab\\blog\\models\\PostImport.php',
+  'RainLab\\Blog\\Models\\PostExport' => 'plugins\\rainlab\\blog\\models\\PostExport.php',
+  'RainLab\\Blog\\Models\\Post' => 'plugins\\rainlab\\blog\\models\\Post.php',
+  'RainLab\\Blog\\Models\\Category' => 'plugins\\rainlab\\blog\\models\\Category.php',
+  'rainlab\\blog\\Controllers\\categories' => 'plugins\\rainlab\\blog\\controllers\\categories.php',
+  'system\\Controllers\\settings' => 'modules\\system\\controllers\\settings.php',
+  'system\\Controllers\\updates' => 'modules\\system\\controllers\\updates.php',
 );
