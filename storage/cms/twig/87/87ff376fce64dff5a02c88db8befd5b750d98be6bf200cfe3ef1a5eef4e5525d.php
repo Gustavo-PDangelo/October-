@@ -26,7 +26,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
             <br />
             <img src=\"";
         // line 5
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/plugin-user.png");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/cerimonial.jpg");
         echo "\" alt=\"RainLab.User\" />
             <div class=\"caption\">
                 <h3>Cerimonial e Eventos</h3>
@@ -45,10 +45,10 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
             <br />
             <img src=\"";
         // line 18
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/plugin-user.png");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/criacao.jpg");
         echo "\" alt=\"RainLab.User\" />
             <div class=\"caption\">
-                <h3>Criação e Audio Visual</h3>
+                <h3>Criação e Audiovisual</h3>
                 <br />
                 <p>
                     <a href=\"";
@@ -65,10 +65,10 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
             <br />
             <img src=\"";
         // line 32
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/plugin-blog.png");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/jornalismo.jpg");
         echo "\" alt=\"RainLab.Blog\" />
             <div class=\"caption\">
-                <h3>Jornalismo e Assesoria de Imprensa</h3>
+                <h3>Jornalismo e Assessoria de Imprensa</h3>
                 <br />
                 <p>
                     <a href=\"";
@@ -85,7 +85,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
             <br />
             <img src=\"";
         // line 46
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/plugin-forum.png");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/secretaria.jpg");
         echo "\" alt=\"RainLab.Forum\" />
             <div class=\"caption\">
                 <h3>Secretaria</h3>
@@ -123,7 +123,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
     <div class=\"col-sm-6 col-md-3\">
         <div class=\"thumbnail text-center\">
             <br />
-            <img src=\"{{ 'assets/images/plugin-user.png'|theme }}\" alt=\"RainLab.User\" />
+            <img src=\"{{ 'assets/images/cerimonial.jpg'|theme }}\" alt=\"RainLab.User\" />
             <div class=\"caption\">
                 <h3>Cerimonial e Eventos</h3>
                 <br />
@@ -136,9 +136,9 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
     <div class=\"col-sm-6 col-md-3\">
         <div class=\"thumbnail text-center\">
             <br />
-            <img src=\"{{ 'assets/images/plugin-user.png'|theme }}\" alt=\"RainLab.User\" />
+            <img src=\"{{ 'assets/images/criacao.jpg'|theme }}\" alt=\"RainLab.User\" />
             <div class=\"caption\">
-                <h3>Criação e Audio Visual</h3>
+                <h3>Criação e Audiovisual</h3>
                 <br />
                 <p>
                     <a href=\"{{ 'account'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
@@ -150,9 +150,9 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
     <div class=\"col-sm-6 col-md-3\">
         <div class=\"thumbnail text-center\">
             <br />
-            <img src=\"{{ 'assets/images/plugin-blog.png'|theme }}\" alt=\"RainLab.Blog\" />
+            <img src=\"{{ 'assets/images/jornalismo.jpg'|theme }}\" alt=\"RainLab.Blog\" />
             <div class=\"caption\">
-                <h3>Jornalismo e Assesoria de Imprensa</h3>
+                <h3>Jornalismo e Assessoria de Imprensa</h3>
                 <br />
                 <p>
                     <a href=\"{{ 'blog'|page }}\" class=\"btn btn-lg btn-success\" role=\"button\">Entrar</a>
@@ -164,7 +164,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
     <div class=\"col-sm-6 col-md-3\">
         <div class=\"thumbnail text-center\">
             <br />
-            <img src=\"{{ 'assets/images/plugin-forum.png'|theme }}\" alt=\"RainLab.Forum\" />
+            <img src=\"{{ 'assets/images/secretaria.jpg'|theme }}\" alt=\"RainLab.Forum\" />
             <div class=\"caption\">
                 <h3>Secretaria</h3>
                 <br />
