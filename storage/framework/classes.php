@@ -41,4 +41,10 @@
   'RainLab\\User\\Models\\MailBlocker' => 'plugins\\rainlab\\user\\models\\MailBlocker.php',
   'RainLab\\User\\Models\\Throttle' => 'plugins\\rainlab\\user\\models\\Throttle.php',
   'RainLab\\Forum\\Models\\Member' => 'plugins\\rainlab\\forum\\models\\Member.php',
+  'rainlab\\user\\Controllers\\usergroups' => 'plugins\\rainlab\\user\\controllers\\usergroups.php',
+  'cms\\Controllers\\themes' => 'modules\\cms\\controllers\\themes.php',
+  'ebussola\\feedback\\Plugin' => 'plugins\\ebussola\\feedback\\Plugin.php',
+  'eBussola\\Feedback\\Models\\Channel' => 'plugins\\ebussola\\feedback\\models\\Channel.php',
+  'rainlab\\sitemap\\Plugin' => 'plugins\\rainlab\\sitemap\\Plugin.php',
+  'rainlab\\feedback\\Plugin' => 'plugins\\rainlab\\feedback\\Plugin.php',
 );
