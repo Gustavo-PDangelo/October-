@@ -67,21 +67,23 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
                             <span class=\"icon-bar\"></span>
                             <span class=\"icon-bar\"></span>
                         </button>
-                        <a class=\"navbar-brand\" href=\"";
-        // line 31
+                            <div class=\"Texto-para-lado\">
+                                <a class=\"navbar-brand\" href=\"";
+        // line 32
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
-        echo "\">SIOP</a>
+        echo "\"></a>
+                            </div>                    
                     </div>
                     <div class=\"collapse navbar-collapse navbar-main-collapse\">
                         <ul class=\"nav navbar-nav navbar-right\">
                             ";
-        // line 35
+        // line 37
         if (($context["user"] ?? null)) {
-            // line 36
+            // line 38
             echo "                                <li><a href=\"#\" data-request=\"onLogout\">Logout</a></li>
                             ";
         }
-        // line 38
+        // line 40
         echo "                        </ul>
                     </div>
                 </div>
@@ -90,53 +92,53 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
         </header>
 
         ";
-        // line 45
+        // line 47
         $context["jumbotronTexture"] = twig_random($this->env, array(0 => "carbon", 1 => "dustnscratches", 2 => "elegant", 3 => "grunge", 4 => "leather", 5 => "lines", 6 => "plaid", 7 => "wood"));
-        // line 46
+        // line 48
         echo "
         <!-- Content -->
         <section id=\"layout-content\">
             <div class=\"jumbotron\" style=\"background-image:url(";
-        // line 49
+        // line 51
         echo $this->extensions['Cms\Twig\Extension']->themeFilter((("assets/images/textures/" . ($context["jumbotronTexture"] ?? null)) . ".png"));
         echo ")\">
                 <div class=\"container\">
                     <h1>";
-        // line 51
+        // line 53
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", array()), "title", array()), "html", null, true);
         echo "</h1>
                     <p>";
-        // line 52
+        // line 54
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", array()), "description", array()), "html", null, true);
         echo "</p>
                 </div>
             </div>
             <div class=\"container\">
                 ";
-        // line 56
+        // line 58
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 57
+        // line 59
         echo "            </div>
         </section>
 
         <!-- Footer -->
         <footer id=\"layout-footer\">
             ";
-        // line 62
+        // line 64
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 63
+        // line 65
         echo "        </footer>
 
         <!-- Scripts -->
         <script src=\"";
-        // line 66
+        // line 68
         echo $this->extensions['Cms\Twig\Extension']->themeFilter(array(0 => "assets/javascript/jquery.js", 1 => "assets/vendor/bootstrap/js/transition.js", 2 => "assets/vendor/bootstrap/js/alert.js", 3 => "assets/vendor/bootstrap/js/button.js", 4 => "assets/vendor/bootstrap/js/carousel.js", 5 => "assets/vendor/bootstrap/js/collapse.js", 6 => "assets/vendor/bootstrap/js/dropdown.js", 7 => "assets/vendor/bootstrap/js/modal.js", 8 => "assets/vendor/bootstrap/js/tooltip.js", 9 => "assets/vendor/bootstrap/js/popover.js", 10 => "assets/vendor/bootstrap/js/scrollspy.js", 11 => "assets/vendor/bootstrap/js/tab.js", 12 => "assets/vendor/bootstrap/js/affix.js", 13 => "assets/javascript/app.js"));
-        // line 81
+        // line 83
         echo "\"></script>
         ";
-        // line 82
+        // line 84
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="'. Request::getBasePath()
@@ -151,11 +153,11 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 83
+        // line 85
         echo "        ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 84
+        // line 86
         echo "
     </body>
 </html>";
@@ -173,7 +175,7 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
 
     public function getDebugInfo()
     {
-        return array (  159 => 84,  155 => 83,  140 => 82,  137 => 81,  135 => 66,  130 => 63,  126 => 62,  119 => 57,  117 => 56,  110 => 52,  106 => 51,  101 => 49,  96 => 46,  94 => 45,  85 => 38,  81 => 36,  79 => 35,  72 => 31,  53 => 14,  50 => 12,  47 => 11,  43 => 10,  37 => 7,  33 => 6,  29 => 5,  23 => 1,);
+        return array (  161 => 86,  157 => 85,  142 => 84,  139 => 83,  137 => 68,  132 => 65,  128 => 64,  121 => 59,  119 => 58,  112 => 54,  108 => 53,  103 => 51,  98 => 48,  96 => 47,  87 => 40,  83 => 38,  81 => 37,  73 => 32,  53 => 14,  50 => 12,  47 => 11,  43 => 10,  37 => 7,  33 => 6,  29 => 5,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -208,7 +210,9 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
                             <span class=\"icon-bar\"></span>
                             <span class=\"icon-bar\"></span>
                         </button>
-                        <a class=\"navbar-brand\" href=\"{{ 'home'|page }}\">SIOP</a>
+                            <div class=\"Texto-para-lado\">
+                                <a class=\"navbar-brand\" href=\"{{ 'home'|page }}\"></a>
+                            </div>                    
                     </div>
                     <div class=\"collapse navbar-collapse navbar-main-collapse\">
                         <ul class=\"nav navbar-nav navbar-right\">
