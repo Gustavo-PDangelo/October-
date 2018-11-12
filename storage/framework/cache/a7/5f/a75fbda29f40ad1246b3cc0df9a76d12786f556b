@@ -1,4 +1,4 @@
-1542028718a:1:{s:8:"home.htm";a:10:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:2136:"title = "SIOP"
+1542030784a:1:{s:8:"home.htm";a:10:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:2198:"title = "SIOP"
 url = "/"
 layout = "default"
 description = "Sistema Interno de Otimização de Processos"
@@ -13,6 +13,7 @@ is_hidden = 0
                 <h3>Cerimonial e Eventos</h3>
                 <br />
                 <p>
+                    <br />
                     <a href="{{ 'account'|page }}" class="btn btn-lg btn-info" role="button">Entrar</a>
                 </p>
             </div>
@@ -26,6 +27,7 @@ is_hidden = 0
                 <h3>Criação e Audiovisual</h3>
                 <br />
                 <p>
+                <br />
                     <a href="{{ 'account'|page }}" class="btn btn-lg btn-info" role="button">Entrar</a>
                 </p>
             </div>
@@ -37,7 +39,7 @@ is_hidden = 0
             <br />
             <img src="{{ 'assets/images/jornalismo.jpg'|theme }}" alt="RainLab.Blog" />
             <div class="caption">
-                <h3>Jornalismo e Assessoria de Imprensa</h3>
+                <h3>Jornalismo e Imprensa</h3>
                 <br />
                 <p>
                     <a href="{{ 'blog'|page }}" class="btn btn-lg btn-success" role="button">Entrar</a>
@@ -54,12 +56,13 @@ is_hidden = 0
                 <h3>Secretaria</h3>
                 <br />
                 <p>
+                <br />
                     <a href="{{ 'forum'|page }}" class="btn btn-lg btn-warning" role="button">Entrar</a>
                 </p>
             </div>
         </div>
     </div>
-</div>";s:5:"mtime";i:1541773811;s:6:"markup";s:2008:"<div class="row">
+</div>";s:5:"mtime";i:1542030177;s:6:"markup";s:2070:"<div class="row">
     <div class="col-sm-6 col-md-3">
         <div class="thumbnail text-center">
             <br />
@@ -68,6 +71,7 @@ is_hidden = 0
                 <h3>Cerimonial e Eventos</h3>
                 <br />
                 <p>
+                    <br />
                     <a href="{{ 'account'|page }}" class="btn btn-lg btn-info" role="button">Entrar</a>
                 </p>
             </div>
@@ -81,6 +85,7 @@ is_hidden = 0
                 <h3>Criação e Audiovisual</h3>
                 <br />
                 <p>
+                <br />
                     <a href="{{ 'account'|page }}" class="btn btn-lg btn-info" role="button">Entrar</a>
                 </p>
             </div>
@@ -92,7 +97,7 @@ is_hidden = 0
             <br />
             <img src="{{ 'assets/images/jornalismo.jpg'|theme }}" alt="RainLab.Blog" />
             <div class="caption">
-                <h3>Jornalismo e Assessoria de Imprensa</h3>
+                <h3>Jornalismo e Imprensa</h3>
                 <br />
                 <p>
                     <a href="{{ 'blog'|page }}" class="btn btn-lg btn-success" role="button">Entrar</a>
@@ -109,6 +114,7 @@ is_hidden = 0
                 <h3>Secretaria</h3>
                 <br />
                 <p>
+                <br />
                     <a href="{{ 'forum'|page }}" class="btn btn-lg btn-warning" role="button">Entrar</a>
                 </p>
             </div>

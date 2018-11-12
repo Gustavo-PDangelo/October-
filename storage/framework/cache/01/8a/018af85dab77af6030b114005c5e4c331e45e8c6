@@ -1,4 +1,4 @@
-1542028718a:1:{s:19:"forgot-password.htm";a:9:{s:8:"fileName";s:19:"forgot-password.htm";s:7:"content";s:216:"title = "Reset Password"
+1542030561a:1:{s:19:"forgot-password.htm";a:9:{s:8:"fileName";s:19:"forgot-password.htm";s:7:"content";s:227:"title = "Reset Password"
 url = "/forgot-password/:code?"
 layout = "default"
 
@@ -9,7 +9,7 @@ paramCode = "code"
 
 <hr />
 
-<p><a href="{{ 'account'|page }}">Go back to Sign in</a></p>";s:5:"mtime";i:1540826307;s:6:"markup";s:101:"{% component 'resetPassword' %}
+<p><a href="{{ 'account'|page }}">Go back to Sign in</a></p>";s:5:"mtime";i:1542029069;s:6:"markup";s:105:"{% component 'resetPassword' %}
 
 <hr />
 

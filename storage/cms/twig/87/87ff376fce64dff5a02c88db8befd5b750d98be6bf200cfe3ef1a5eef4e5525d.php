@@ -32,8 +32,9 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                 <h3>Cerimonial e Eventos</h3>
                 <br />
                 <p>
+                    <br />
                     <a href=\"";
-        // line 10
+        // line 11
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("account");
         echo "\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
                 </p>
@@ -44,15 +45,16 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
         <div class=\"thumbnail text-center\">
             <br />
             <img src=\"";
-        // line 18
+        // line 19
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/criacao.jpg");
         echo "\" alt=\"RainLab.User\" />
             <div class=\"caption\">
                 <h3>Criação e Audiovisual</h3>
                 <br />
                 <p>
+                <br />
                     <a href=\"";
-        // line 23
+        // line 25
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("account");
         echo "\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
                 </p>
@@ -64,15 +66,15 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
         <div class=\"thumbnail text-center\">
             <br />
             <img src=\"";
-        // line 32
+        // line 34
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/jornalismo.jpg");
         echo "\" alt=\"RainLab.Blog\" />
             <div class=\"caption\">
-                <h3>Jornalismo e Assessoria de Imprensa</h3>
+                <h3>Jornalismo e Imprensa</h3>
                 <br />
                 <p>
                     <a href=\"";
-        // line 37
+        // line 39
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("blog");
         echo "\" class=\"btn btn-lg btn-success\" role=\"button\">Entrar</a>
                 </p>
@@ -84,15 +86,16 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
         <div class=\"thumbnail text-center\">
             <br />
             <img src=\"";
-        // line 46
+        // line 48
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/secretaria.jpg");
         echo "\" alt=\"RainLab.Forum\" />
             <div class=\"caption\">
                 <h3>Secretaria</h3>
                 <br />
                 <p>
+                <br />
                     <a href=\"";
-        // line 51
+        // line 54
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("forum");
         echo "\" class=\"btn btn-lg btn-warning\" role=\"button\">Entrar</a>
                 </p>
@@ -114,7 +117,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
 
     public function getDebugInfo()
     {
-        return array (  96 => 51,  88 => 46,  76 => 37,  68 => 32,  56 => 23,  48 => 18,  37 => 10,  29 => 5,  23 => 1,);
+        return array (  99 => 54,  90 => 48,  78 => 39,  70 => 34,  58 => 25,  49 => 19,  38 => 11,  29 => 5,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -128,6 +131,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                 <h3>Cerimonial e Eventos</h3>
                 <br />
                 <p>
+                    <br />
                     <a href=\"{{ 'account'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
                 </p>
             </div>
@@ -141,6 +145,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                 <h3>Criação e Audiovisual</h3>
                 <br />
                 <p>
+                <br />
                     <a href=\"{{ 'account'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
                 </p>
             </div>
@@ -152,7 +157,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
             <br />
             <img src=\"{{ 'assets/images/jornalismo.jpg'|theme }}\" alt=\"RainLab.Blog\" />
             <div class=\"caption\">
-                <h3>Jornalismo e Assessoria de Imprensa</h3>
+                <h3>Jornalismo e Imprensa</h3>
                 <br />
                 <p>
                     <a href=\"{{ 'blog'|page }}\" class=\"btn btn-lg btn-success\" role=\"button\">Entrar</a>
@@ -169,6 +174,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                 <h3>Secretaria</h3>
                 <br />
                 <p>
+                <br />
                     <a href=\"{{ 'forum'|page }}\" class=\"btn btn-lg btn-warning\" role=\"button\">Entrar</a>
                 </p>
             </div>

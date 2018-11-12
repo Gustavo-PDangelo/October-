@@ -1,10 +1,10 @@
-1542028718a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:234:"==
+1542030561a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:234:"==
 <div id="footer">
     <div class="container">
         <hr />
         <p class="muted credit">&copy; Desenvolvido por {{ "now"|date("Y") }} Diretoria de Imagem UFJF | Universidade Federal de juiz de Fora </p>
     </div>
-</div>";s:5:"mtime";i:1541768956;s:6:"markup";s:230:"<div id="footer">
+</div>";s:5:"mtime";i:1542029069;s:6:"markup";s:230:"<div id="footer">
     <div class="container">
         <hr />
         <p class="muted credit">&copy; Desenvolvido por {{ "now"|date("Y") }} Diretoria de Imagem UFJF | Universidade Federal de juiz de Fora </p>
