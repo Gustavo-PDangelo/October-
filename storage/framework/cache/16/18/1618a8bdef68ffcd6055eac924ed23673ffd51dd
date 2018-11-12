@@ -1,12 +1,12 @@
-1542030561a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:234:"==
+1542031293a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:233:"==
 <div id="footer">
     <div class="container">
         <hr />
-        <p class="muted credit">&copy; Desenvolvido por {{ "now"|date("Y") }} Diretoria de Imagem UFJF | Universidade Federal de juiz de Fora </p>
+        <p class="muted credit">&copy; Equipe de TI | Diretoria de Imagem Institucional da UFJF | {{ "now"|date("Y") }} | Mantido com October</p>
     </div>
-</div>";s:5:"mtime";i:1542029069;s:6:"markup";s:230:"<div id="footer">
+</div>";s:5:"mtime";i:1542030691;s:6:"markup";s:229:"<div id="footer">
     <div class="container">
         <hr />
-        <p class="muted credit">&copy; Desenvolvido por {{ "now"|date("Y") }} Diretoria de Imagem UFJF | Universidade Federal de juiz de Fora </p>
+        <p class="muted credit">&copy; Equipe de TI | Diretoria de Imagem Institucional da UFJF | {{ "now"|date("Y") }} | Mantido com October</p>
     </div>
 </div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
