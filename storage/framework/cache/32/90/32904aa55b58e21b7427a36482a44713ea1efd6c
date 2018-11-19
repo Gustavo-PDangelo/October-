@@ -1,4 +1,4 @@
-1542030561a:1:{s:11:"account.htm";a:11:{s:8:"fileName";s:11:"account.htm";s:7:"content";s:313:"title = "Account"
+1542629325a:1:{s:11:"account.htm";a:11:{s:8:"fileName";s:11:"account.htm";s:7:"content";s:313:"title = "Account"
 url = "/account/:code?"
 layout = "default"
 description = "Sign in, registration and account management."
@@ -12,7 +12,7 @@ paramCode = "code"
 
 <hr />
 
-<p><a href="{{ 'forgot-password'|page }}">Forgotten your password?</a></p>";s:5:"mtime";i:1542029069;s:6:"markup";s:113:"{% component 'account' %}
+<p><a href="{{ 'forgot-password'|page }}">Forgotten your password?</a></p>";s:5:"mtime";i:1542030639;s:6:"markup";s:113:"{% component 'account' %}
 
 <hr />
 
