@@ -91,11 +91,11 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
 
         </header>
 
-        ";
+         ";
         // line 47
         $context["jumbotronTexture"] = twig_random($this->env, array(0 => "b"));
         // line 48
-        echo "
+        echo "         
         <!-- Content -->
         <section id=\"layout-content\">
             <div class=\"jumbotron\" style=\"background-image:url(";
@@ -226,8 +226,8 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
 
         </header>
 
-        {% set jumbotronTexture = random(['b']) %}
-
+         {% set jumbotronTexture = random(['b']) %}
+         
         <!-- Content -->
         <section id=\"layout-content\">
             <div class=\"jumbotron\" style=\"background-image:url({{ ('assets/images/textures/'~jumbotronTexture~'.png')|theme }})\">

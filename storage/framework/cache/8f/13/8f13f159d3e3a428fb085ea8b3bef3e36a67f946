@@ -1,4 +1,4 @@
-1542632920a:1:{s:11:"default.htm";a:8:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3702:"description = "Default layout"
+1542634708a:1:{s:11:"default.htm";a:8:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3712:"description = "Default layout"
 
 [session]
 security = "all"
@@ -53,8 +53,8 @@ forceSecure = 0
 
         </header>
 
-        {% set jumbotronTexture = random(['b']) %}
-
+         {% set jumbotronTexture = random(['b']) %}
+         
         <!-- Content -->
         <section id="layout-content">
             <div class="jumbotron" style="background-image:url({{ ('assets/images/textures/'~jumbotronTexture~'.png')|theme }})">
@@ -94,7 +94,7 @@ forceSecure = 0
         {% scripts %}
 
     </body>
-</html>";s:5:"mtime";i:1542631223;s:6:"markup";s:3585:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1542634102;s:6:"markup";s:3595:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -140,8 +140,8 @@ forceSecure = 0
 
         </header>
 
-        {% set jumbotronTexture = random(['b']) %}
-
+         {% set jumbotronTexture = random(['b']) %}
+         
         <!-- Content -->
         <section id="layout-content">
             <div class="jumbotron" style="background-image:url({{ ('assets/images/textures/'~jumbotronTexture~'.png')|theme }})">

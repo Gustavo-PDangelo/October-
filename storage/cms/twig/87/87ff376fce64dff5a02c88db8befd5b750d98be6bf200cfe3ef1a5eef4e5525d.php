@@ -35,7 +35,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                     <br />
                     <a href=\"";
         // line 11
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("account");
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("cerimonial-e-eventos");
         echo "\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
                 </p>
             </div>
@@ -55,7 +55,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                 <br />
                     <a href=\"";
         // line 25
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("account");
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("criacao-e-audiovisual");
         echo "\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
                 </p>
             </div>
@@ -75,7 +75,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                 <p>
                     <a href=\"";
         // line 39
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("blog");
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("jornalismo-e-imprensa");
         echo "\" class=\"btn btn-lg btn-success\" role=\"button\">Entrar</a>
                 </p>
             </div>
@@ -96,7 +96,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                 <br />
                     <a href=\"";
         // line 54
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("forum");
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("secretaria");
         echo "\" class=\"btn btn-lg btn-warning\" role=\"button\">Entrar</a>
                 </p>
             </div>
@@ -132,7 +132,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                 <br />
                 <p>
                     <br />
-                    <a href=\"{{ 'account'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
+                    <a href=\"{{ 'cerimonial-e-eventos'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
@@ -146,7 +146,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                 <br />
                 <p>
                 <br />
-                    <a href=\"{{ 'account'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
+                    <a href=\"{{ 'criacao-e-audiovisual'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
@@ -160,7 +160,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                 <h3>Jornalismo e Imprensa</h3>
                 <br />
                 <p>
-                    <a href=\"{{ 'blog'|page }}\" class=\"btn btn-lg btn-success\" role=\"button\">Entrar</a>
+                    <a href=\"{{ 'jornalismo-e-imprensa'|page }}\" class=\"btn btn-lg btn-success\" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
@@ -175,7 +175,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                 <br />
                 <p>
                 <br />
-                    <a href=\"{{ 'forum'|page }}\" class=\"btn btn-lg btn-warning\" role=\"button\">Entrar</a>
+                    <a href=\"{{ 'secretaria'|page }}\" class=\"btn btn-lg btn-warning\" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
