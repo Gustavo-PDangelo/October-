@@ -47,4 +47,6 @@
   'eBussola\\Feedback\\Models\\Channel' => 'plugins\\ebussola\\feedback\\models\\Channel.php',
   'rainlab\\sitemap\\Plugin' => 'plugins\\rainlab\\sitemap\\Plugin.php',
   'rainlab\\feedback\\Plugin' => 'plugins\\rainlab\\feedback\\Plugin.php',
+  'RainLab\\Forum\\Models\\Channel' => 'plugins\\rainlab\\forum\\models\\Channel.php',
+  'RainLab\\Forum\\Models\\Topic' => 'plugins\\rainlab\\forum\\models\\Topic.php',
 );

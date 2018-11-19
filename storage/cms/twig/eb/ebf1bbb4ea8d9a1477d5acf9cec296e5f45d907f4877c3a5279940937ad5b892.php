@@ -93,7 +93,7 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
 
         ";
         // line 47
-        $context["jumbotronTexture"] = twig_random($this->env, array(0 => "ufjf-1", 1 => "ufjf-2", 2 => "ufjf-3", 3 => "ufjf-4"));
+        $context["jumbotronTexture"] = twig_random($this->env, array(0 => "b"));
         // line 48
         echo "
         <!-- Content -->
@@ -226,7 +226,7 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
 
         </header>
 
-        {% set jumbotronTexture = random(['ufjf-1', 'ufjf-2', 'ufjf-3', 'ufjf-4']) %}
+        {% set jumbotronTexture = random(['b']) %}
 
         <!-- Content -->
         <section id=\"layout-content\">

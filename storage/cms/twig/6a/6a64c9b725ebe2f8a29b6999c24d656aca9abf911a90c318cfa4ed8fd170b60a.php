@@ -23,10 +23,10 @@ class __TwigTemplate_2c5e722e0e89c3fbf02ca8b46ac4249ff84d3cd04813a4d371344b10c2c
         echo "<div id=\"footer\">
     <div class=\"container\">
         <hr />
-        <p class=\"muted credit\">&copy; Desenvolvido por ";
+        <p class=\"muted credit\">&copy; Equipe de TI | Diretoria de Imagem Institucional da UFJF | ";
         // line 4
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
-        echo " Diretoria de Imagem UFJF | Universidade Federal de juiz de Fora </p>
+        echo " | Mantido com October</p>
     </div>
 </div>";
     }
@@ -51,7 +51,7 @@ class __TwigTemplate_2c5e722e0e89c3fbf02ca8b46ac4249ff84d3cd04813a4d371344b10c2c
         return new Twig_Source("<div id=\"footer\">
     <div class=\"container\">
         <hr />
-        <p class=\"muted credit\">&copy; Desenvolvido por {{ \"now\"|date(\"Y\") }} Diretoria de Imagem UFJF | Universidade Federal de juiz de Fora </p>
+        <p class=\"muted credit\">&copy; Equipe de TI | Diretoria de Imagem Institucional da UFJF | {{ \"now\"|date(\"Y\") }} | Mantido com October</p>
     </div>
 </div>", "C:\\xampp\\htdocs\\install-master/themes/rainlab-vanilla/partials/footer.htm", "");
     }
