@@ -56,7 +56,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                     <a href=\"";
         // line 25
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("criacao-e-audiovisual");
-        echo "\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
+        echo "\" class=\"btn btn-lg btn-info btn-agora vai \" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>
@@ -146,7 +146,7 @@ class __TwigTemplate_4627ff95363b40caa8ab6629053f115d3045a1965e281f66f8f06449020
                 <br />
                 <p>
                 <br />
-                    <a href=\"{{ 'criacao-e-audiovisual'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">Entrar</a>
+                    <a href=\"{{ 'criacao-e-audiovisual'|page }}\" class=\"btn btn-lg btn-info btn-agora vai \" role=\"button\">Entrar</a>
                 </p>
             </div>
         </div>

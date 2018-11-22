@@ -78,3 +78,6 @@ Stack trace:
 #11 C:\xampp\htdocs\install-master\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
 #12 C:\xampp\htdocs\install-master\index.php(43): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #13 {main}  
+[2018-11-22 16:00:47] dev.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\install-master\modules\system\classes\PluginManager.php:393
+Stack trace:
+#0 {main}  
