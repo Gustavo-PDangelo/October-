@@ -48,7 +48,7 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
         // line 12
         echo "        <link href=\"";
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter(array(0 => "assets/less/theme.less"));
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter(array(0 => "assets/css/theme.css"));
         // line 14
         echo "\" rel=\"stylesheet\">
     </head>
@@ -192,7 +192,7 @@ class __TwigTemplate_1cd465b6c20b5762b90c49d6b56c41674e2a3686fe5a2a966cf79948fca
         <link rel=\"icon\" type=\"image/png\" href=\"{{ 'assets/images/october.png'|theme }}\" />
         {% styles %}
         <link href=\"{{ [
-            'assets/less/theme.less'
+            'assets/css/theme.css'
         ]|theme }}\" rel=\"stylesheet\">
     </head>
     <body>

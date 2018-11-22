@@ -1,4 +1,4 @@
-1542903145a:1:{s:11:"default.htm";a:8:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3712:"description = "Default layout"
+1542910883a:1:{s:11:"default.htm";a:8:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3710:"description = "Default layout"
 
 [session]
 security = "all"
@@ -19,7 +19,7 @@ forceSecure = 0
         <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}" />
         {% styles %}
         <link href="{{ [
-            'assets/less/theme.less'
+            'assets/css/theme.css'
         ]|theme }}" rel="stylesheet">
     </head>
     <body>
@@ -94,7 +94,7 @@ forceSecure = 0
         {% scripts %}
 
     </body>
-</html>";s:5:"mtime";i:1542634102;s:6:"markup";s:3595:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1542910264;s:6:"markup";s:3593:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -106,7 +106,7 @@ forceSecure = 0
         <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}" />
         {% styles %}
         <link href="{{ [
-            'assets/less/theme.less'
+            'assets/css/theme.css'
         ]|theme }}" rel="stylesheet">
     </head>
     <body>
