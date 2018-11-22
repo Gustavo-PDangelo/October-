@@ -2370,7 +2370,6 @@ fieldset[disabled] .btn-success.active {
   color: #ffffff;
   background-color: #000;
   border-color: #000;
-  margin-top: 11%;
 }
 .btn-info:hover,
 .btn-info:focus,
@@ -2416,7 +2415,6 @@ fieldset[disabled] .btn-info.active {
   color: #ffffff;
   background-color: #000;
   border-color: #000;
-  margin-top: 11%;
 }
 .btn-warning:hover,
 .btn-warning:focus,
